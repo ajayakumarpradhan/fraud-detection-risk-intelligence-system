@@ -82,7 +82,7 @@ def main(data_path, out_dir, sample_frac=0.1):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", type=str, default=r"C:\Users\ajaya\Downloads\fraud detection\Fraud.csv")
-    parser.add_argument("--out", type=str, default=r"C:\Users\ajaya\.gemini\antigravity\scratch\fraud_detection\models")
+    parser.add_argument("--out", type=str, default=r"C:\Users\ajaya\.gemini\antigravity\scratch\fraud_detection\model_artifacts")
     parser.add_argument("--sample", type=float, default=0.1)
     args = parser.parse_args()
     main(args.data, args.out, args.sample)
